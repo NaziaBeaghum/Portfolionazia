@@ -1,0 +1,60 @@
+.project_container
+{
+    min-height: 100 vh;
+    overflow: scroll;
+    margin-top: 50px;
+    /* margin-bottom: 100px;
+    o
+} */
+}
+.technologies_container
+{
+   
+   overflow: scroll;
+}
+
+.skills_logo
+{
+    width: 130px;
+    height: 130px;
+}
+
+.logos_div
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 50px;
+    padding:0 40px;
+}
+.code_btn
+{
+    background-color: #1E5AA4;
+    color: #FCEC51;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+@media(max-width:600px)
+{
+    .logos_div
+    {
+        display: block;
+       
+    }
+    .skills_logo{
+        width: 130px;
+        height: 130px;
+        margin: 0 auto 20px;
+
+    }
+
+    
+}
