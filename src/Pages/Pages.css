@@ -1,7 +1,6 @@
 .project_container
 {
     min-height: 100 vh;
-    overflow: scroll;
     margin-top: 50px;
     /* margin-bottom: 100px;
     o
@@ -10,7 +9,7 @@
 .technologies_container
 {
    
-   overflow: scroll;
+   
 }
 
 .skills_logo
@@ -55,6 +54,16 @@ img{
         margin: 0 auto 20px;
 
     }
+    .technologies_container
+    {
+        overflow-y: scroll;
+    }
+    .project_container
+    {
+        overflow-y: scroll;
+    }
+
+
 
     
 }
