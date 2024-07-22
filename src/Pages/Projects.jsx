@@ -8,9 +8,9 @@ import { Box,Stack,Card,CardContent,CardMedia, Typography } from "@mui/material"
 const Projects = () => { 
   return (
      <div className='project_container' >
-     <div>
+     
        
-       <Typography variant='h4' textAlign="center" marginBottom=".8em" fontSize="1.5rem">Few of my works</Typography>
+       <Typography variant='h4' textAlign="center" marginBottom=".8em" fontSize="1.5rem " color='white'>Few of my works</Typography>
       <Box sx={{px:{md:0,xs:4},py:{xs:2},marginLeft:"auto",marginRight:"auto",width:{md:"80%",sm:"50%",xs:"50%"},height:"380px"}}>
         
             <Stack sx={{flexDirection:{md:"row",xs:"column",sm:"column"},gap:{md:3,xs:6},flexWrap:"wrap",justifyContent:"center"}}>
@@ -29,7 +29,7 @@ const Projects = () => {
                 </Card>})}
                 </Stack>
         </Box>
-      </div>
+      
       </div>
   )
 }

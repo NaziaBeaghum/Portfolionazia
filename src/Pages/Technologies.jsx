@@ -34,7 +34,7 @@ const Technologies = () => {
     <div className='technologies_container' >
       
       
-      <h4 style={{textAlign:"center",fontSize:"1.5rem",fontWeight:"bold",marginBottom:"1.5rem",marginTop:"0.75rem"}}> Top Skills</h4>
+      <h4 style={{textAlign:"center",fontSize:"1.5rem",color:"white",fontWeight:"bold",marginBottom:"1.5rem",marginTop:"0.75rem"}}> Top Skills</h4>
       <div className='logos_div'>
         
         {skills.map((item)=>(

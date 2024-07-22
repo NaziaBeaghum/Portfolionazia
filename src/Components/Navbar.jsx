@@ -2,20 +2,17 @@ import React, { useEffect, useState } from 'react'
 import { Link,NavLink } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu';
 import './Components.css'
-import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
     const[menuopen,setopen]=useState(true)
-    const location=useLocation()
+   
     function handleclick()
     {
         setopen(!menuopen)
         console.log(menuopen)
     }
 
-    useEffect(()=>{
-      setopen(false)
-    },location)
+   
   return (
     <nav>
         <Link to='/' className='title'>Portfolio.</Link>
