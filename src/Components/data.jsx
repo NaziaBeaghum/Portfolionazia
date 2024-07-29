@@ -7,6 +7,24 @@ const data=[
     },
     {
       
+        img:"assets/wellness.jpg",
+        description:" A Responsive web page for a fictional wellness retreat ",
+        url:{code:"https://github.com/NaziaBeaghum/wellness",
+        demo:"https://wellness-jade.vercel.app/"}
+    
+    },
+    {
+      
+        img:"assets/habot.jpg",
+        description:"A static Responsive page built using React js,javascrict,html and Tailwindcss.",
+        url:{code:"https://github.com/NaziaBeaghum/habot",
+        demo:"https://habot-sepia.vercel.app/"}
+    
+    },
+
+    
+    {
+      
         img:"assets/weather.jpg",
         description:"Weather app built using React js,javascrict,html and CSS.",
         url:{code:"https://github.com/NaziaBeaghum/Weatherapp",

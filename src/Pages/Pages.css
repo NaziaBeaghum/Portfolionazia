@@ -7,11 +7,7 @@
     o
 } */
 }
-.technologies_container
-{
-   
-   
-}
+
 
 .skills_logo
 {
@@ -37,9 +33,6 @@
     border-radius: 8px;
     cursor: pointer;
     text-decoration: none;
-}
-img{
-    max-width: 100%;
 }
 
 @media(max-width:600px)

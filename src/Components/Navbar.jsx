@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link,NavLink } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import './Components.css'
 
 const Navbar = () => {
@@ -16,7 +17,8 @@ const Navbar = () => {
   return (
     <nav>
         <Link to='/' className='title'>Portfolio.</Link>
-        <div className='hamburger' ><MenuIcon onClick={handleclick}/></div>
+       <div  className='hamburger' onClick={handleclick}> {!menuopen?<MenuIcon/>:<CloseIcon/>}</div>
+        {/* <div className='hamburger' ><MenuIcon onClick={handleclick}/></div> */}
         <ul className={menuopen?"open":"close"}>
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/projects'>Projects</NavLink></li>

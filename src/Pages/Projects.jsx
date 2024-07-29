@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { Box,Stack,Card,CardContent,CardMedia, Typography } from "@mui/material";
  import data from '../Components/data';
-
+import './Pages.css'
 
 
 const Projects = () => { 
@@ -16,7 +16,7 @@ const Projects = () => {
             <Stack sx={{flexDirection:{md:"row",xs:"column",sm:"column"},gap:{md:3,xs:6},flexWrap:"wrap",justifyContent:"center"}}>
             {data.map((item)=>{return<Card  sx={{width:{md:'320px', sm:"320px",xs:'100%'},bordeShadow:"none"}}>
 
-                    <CardMedia image={item.img} alt="" sx={{width:{xs:"358px"},height:{md:"250px" ,xs:"300px"}}}/>
+                    <CardMedia image={item.img} alt="" sx={{width:{xs:"358px"},objectFit:"contain",height:{md:"250px" ,xs:"300px"}}}/>
                     
                     <CardContent sx={{height:{md:'100px',xs:"150px"},backgroundColor:"#F29878" ,color:"white" }}>
                         <Typography style={{color:"#163977",fontSize:".75rem"}}>{item.description}</Typography>
