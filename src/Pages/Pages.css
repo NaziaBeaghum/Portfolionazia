@@ -1,12 +1,13 @@
 .project_container
 {
-   overflow-y: scroll;
-    margin-top: 50px;
-    min-height: 100vh;
-    /* margin-bottom: 100px;
-    o
-} */
-}
+   min-height: 100vh;
+    margin-top: 20px;
+    overflow-y:scroll;scrollbar-width: none;
+    
+     
+    
+} 
+
 
 
 .skills_logo

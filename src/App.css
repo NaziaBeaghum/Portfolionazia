@@ -9,10 +9,12 @@
 body
 {
    
-   min-height: 100vh; 
-  background-image: url("/assets/bluebg.jpg");
+  min-height: 100vh;
+ background-image: url("/assets/bluebg.jpg"); 
   background-size:cover;
   background-repeat: no-repeat; 
+ 
+  
   
 
 }
@@ -43,10 +45,10 @@ body
     display: block;
   }
   
-  @media(max-width:600px)
+  @media(max-width:800px)
   {
   body{
-     background-image: url("/assets/bluebg.jpg")
+     min-height: 100vh
   
     };
   }
