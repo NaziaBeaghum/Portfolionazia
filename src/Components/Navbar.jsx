@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import './Components.css'
 
 const Navbar = () => {
-    const[menuopen,setopen]=useState(true)
+    const[menuopen,setopen]=useState(false)
    
     function handleclick()
     {
